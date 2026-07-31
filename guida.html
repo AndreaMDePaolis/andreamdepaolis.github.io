@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="it" data-theme="light">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Contexl - Guida completa</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+<script src="main.js"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=BAAHkOGiuyd2iNmfBB-Cjw0brHbDSyzAOmmFbM7K9xGshnULQx1wae1XHK-_aIw20QmLgxrVrtT_8zZmTE&components=hosted-buttons&disable-funding=venmo&currency=EUR">
+</script>
+</head>
+
+<body>
+    <header>
+        <nav class="header-nav"><a class="header-contexl" href="index.html" aria-current="page">Contexl</a>
+            <div id="nav-links" class="nav-links"><a href="index.html" class="header-link">Home</a><a class="header-link support-link" href="index.html#support" aria-label="Contribuisci" title="Contribuisci">Contribuisci</a></div>
+            <div class="header-actions"><a class="github-link" href="https://github.com/AndreaMDePaolis/Contexl" target="_blank" rel="noopener noreferrer" aria-label="vai al repository di GitHub" title="vai al repository di GitHub"><svg height="24" viewbox="0 0 16 16" width="24" aria-hidden="true" fill="white"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8a8.01 8.01 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2 .37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a></div>
+            <div class="hamburger-container"><button class="hamburger" id="hamburger-menu" aria-label="Toggle navigation" aria-expanded="false" type="button"><span></span><span></span><span></span></button></div>
+            <div class="nav-overlay" aria-hidden="true"></div>
+        </nav>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Guida completa Contexl</h1>
+                    <p style="text-align: left; margin: 4rem 1rem 1rem">Un add-in per Excel pensato per semplificare i calcoli fiscali, bancari e di testo, con formule pronte da usare direttamente nelle celle.</p>
+                    <ul class="hero-list">
+                        <li><svg class="check-icon" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.8519 0.52594L3.89189 7.10404L1.14811 4.51081L0 5.59592L3.89189 9.27426L12 1.61105L10.8519 0.52594Z" fill="currentColor"></path></svg><span>Installazione semplice e rapida</span></li>
+                        <li><svg class="check-icon" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.8519 0.52594L3.89189 7.10404L1.14811 4.51081L0 5.59592L3.89189 9.27426L12 1.61105L10.8519 0.52594Z" fill="currentColor"></path></svg><span>Funzioni fiscali, bancarie e di testo</span></li>
+                        <li><svg class="check-icon" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.8519 0.52594L3.89189 7.10404L1.14811 4.51081L0 5.59592L3.89189 9.27426L12 1.61105L10.8519 0.52594Z" fill="currentColor"></path></svg><span>Compatibile con le versioni moderne di Excel</span></li>
+                    </ul>
+                    <div class="cta"><a class="cta-btn" href="index.html">Torna alla home</a><a class="cta-btn cta-btn-secondary" href="https://github.com/AndreaMDePaolis/Contexl/releases/latest" target="_blank" rel="noopener noreferrer">Scarica l'add-in</a></div>
+                </div>
+                <div class="hero-figure"><svg class="mascot-contexl" xmlns="http://www.w3.org/2000/svg" viewBox="0 -120 512 632" aria-hidden="true">
+                        <rect x="210" y="280" width="20" height="40" rx="10" fill="#0284c7"></rect>
+                        <rect x="282" y="280" width="20" height="40" rx="10" fill="#0284c7"></rect>
+                        <rect x="186" y="160" width="140" height="130" rx="32" fill="#0ea5e9"></rect>
+                        <circle cx="256" cy="120" r="10" fill="#FDDD00"></circle>
+                        <path d="M 186 240 Q 170 250 160 250" fill="none" stroke="#0ea5e9" stroke-width="16" stroke-linecap="round"></path>
+                        <circle cx="160" cy="250" r="16" fill="#0ea5e9"></circle>
+                        <path d="M 326 210 Q 340 200 352 200" fill="none" stroke="#0ea5e9" stroke-width="16" stroke-linecap="round"></path>
+                        <circle cx="352" cy="200" r="16" fill="#0ea5e9"></circle>
+                    </svg></div>
+            </div>
+        </section>
+    </header>
+    <main class="container">
+        <section class="guide-card">
+            <h2>Guida completa Contexl</h2>
+            <p>Contexl è un componente aggiuntivo per Excel pensato per semplificare i calcoli fiscali, bancari e di testo direttamente nelle formule native del foglio. La guida seguente raccoglie le funzioni principali, gli esempi pratici e le indicazioni utili per iniziare.</p>
+            <ul class="toc">
+                <li><a href="#installazione">Installazione</a></li>
+                <li><a href="#funzioni-principali">Funzioni principali</a></li>
+                <li><a href="#fisco">Funzioni fiscali</a></li>
+                <li><a href="#codice-fiscale">Codice fiscale</a></li>
+                <li><a href="#esempi">Esempi pratici</a></li>
+                <li><a href="#calendario">Calendario fiscale</a></li>
+                <li><a href="#banca-e-testo">Banca e testo</a></li>
+                <li><a href="#aliquote">Aliquote IVA</a></li>
+                <li><a href="#faq">Domande frequenti</a></li>
+                <li><a href="#licenza">Licenza</a></li>
+            </ul>
+        </section>
+        <section id="installazione" class="guide-card">
+            <h2>Installazione</h2>
+            <ol>
+                <li>Scarica il file dell'add-in dalla sezione Releases, scegliendo il build adatto a Excel a 32 o 64 bit.</li>
+                <li>Copia il file in una cartella stabile del PC, ad esempio la cartella Download.</li>
+                <li>Apri Excel, vai su File → Opzioni → Componenti aggiuntivi e aggiungi il file .xll.</li>
+                <li>Per verificare il corretto caricamento, scrivi nella cella <code>=FISCO.IVA(1000)</code> e premi Invio.</li>
+            </ol>
+            <p>Se il file viene bloccato da Windows, apri le proprietà del file, spunta Annulla blocco e conferma. In alternativa, fai doppio clic sul file .xll per caricarlo solo nella sessione corrente di Excel.</p>
+            <div class="code-block" style="background: var(--blockquote-bg);"><code>=FISCO.IVA(1000) → 220</code></div>
+        </section>
+        <section id="funzioni-principali" class="guide-card">
+            <h2>Funzioni principali</h2>
+            <div class="card-grid">
+                <div class="mini-card">
+                    <h3>Fisco</h3>
+                    <p>IVA, IRPEF, partite IVA, province IVA, calendario fiscale e controllo del codice fiscale.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>Banca</h3>
+                    <p>Controllo formale degli IBAN con verifica della lunghezza e della cifra di controllo internazionale.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>Testo</h3>
+                    <p>Conversione da testo a Base64 e viceversa per integrazioni e scambi di dati.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>Utility</h3>
+                    <p>Funzioni semplici da usare come formule native di Excel e disponibili nella finestra Inserisci funzione.</p>
+                </div>
+            </div>
+        </section>
+        <section id="fisco" class="guide-card">
+            <h2>Funzioni fiscali</h2>
+            <h3>FISCO.IVA</h3>
+            <p>Calcola l'IVA, la scorpora o restituisce il totale con IVA inclusa. Funziona sia su un singolo valore sia su intervalli di celle.</p>
+            <div class="code-block" style="border-color: var(--blockquote-bg);background: var(--blockquote-bg);"><code>=FISCO.IVA(1000)</code><br><code>=FISCO.IVA(1220;1)</code><br><code>=FISCO.IVA(1000;2)</code></div>
+            <p>Gli argomenti disponibili includono l'operazione, lo stato e l'aliquota, con valori predefiniti già impostati per l'Italia.</p>
+            <div style="background: var(--light);">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Argomento</th>
+                            <th>Descrizione</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>importo</td>
+                            <td>Importo lordo o imponibile su cui calcolare l'IVA.</td>
+                        </tr>
+                        <tr>
+                            <td>operazione</td>
+                            <td>0 = calcola IVA, 1 = scorpora IVA, 2 = totale con IVA inclusa.</td>
+                        </tr>
+                        <tr>
+                            <td>stato</td>
+                            <td>Paese di riferimento per l'aliquota IVA.</td>
+                        </tr>
+                        <tr>
+                            <td>aliquota</td>
+                            <td>Ordinaria, ridotta, seconda ridotta o minima.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>FISCO.IRPEF</h3>
+            <p>Calcola l'IRPEF lorda su un reddito imponibile, con supporto al sistema precedente e al sistema dal 2026.</p>
+            <div class="code-block" style="background: var(--blockquote-bg);"><code>=FISCO.IRPEF(30000)</code><br><code>=FISCO.IRPEF(30000;1)</code></div>
+        </section>
+        <section id="codice-fiscale" class="guide-card">
+            <h2>Codice fiscale</h2>
+            <h3>CF_COMUNE</h3>
+            <p>Restituisce il codice catastale del comune partendo dal nome del comune.</p>
+            <div class="code-block" style="background: var(--blockquote-bg);"><code>=CF_COMUNE("Roma")</code></div>
+            <h3>CODICE.FISCALE</h3>
+            <p>Calcola il codice fiscale di una persona a partire da nome, cognome, data di nascita, sesso e codice del comune di nascita.</p>
+            <div class="code-block" style="background: var(--blockquote-bg);"><code>=CODICE.FISCALE("Mario";"Rossi";DATA(1980;5;12);"M";"H501")</code></div>
+            <h3>CF_CHECK</h3>
+            <p>Normalizza un codice fiscale omocodico, riportando le lettere ai valori base per confronti più semplici.</p>
+            <div class="code-block" style="background: var(--blockquote-bg);"><code>=CF_CHECK(A2)</code></div>
+        </section>
+        <section id="esempi" class="guide-card">
+            <h2>Esempi pratici</h2>
+            <h3>Foglio anagrafica</h3>
+            <p>Uno schema pronto da replicare per generare e controllare i codici fiscali di un'intera anagrafica dipendenti o clienti.</p>
+            <div style="background: var(--light);">
+                <table class="table table-striped table-bordered">
+                    <tbody class="table-group-divider">
+                        <tr class="fw-bold" style="text-align: center;">
+                            <td style="font-weight: bold;border-width: 1px;">Cognome</td>
+                            <td style="font-weight: bold;">Nome</td>
+                            <td style="font-weight: bold;">Data nascita</td>
+                            <td style="font-weight: bold;">Sesso</td>
+                            <td style="font-weight: bold;">Comune nascita</td>
+                            <td style="font-weight: bold;">Cod. catastale</td>
+                            <td style="font-weight: bold;">CF calcolato</td>
+                            <td style="font-weight: bold;">CF da gestionale</td>
+                            <td style="font-weight: bold;">Esito</td>
+                        </tr>
+                        <tr>
+                            <td>Rossi</td>
+                            <td>Mario</td>
+                            <td>12/05/1980</td>
+                            <td style="text-align: center;">M</td>
+                            <td style="text-align: center;">Roma</td>
+                            <td style="text-align: center;">H501</td>
+                            <td>RSSMRA80E12H501U</td>
+                            <td>RSSMRA80E12H501U</td>
+                            <td>✅ Coincide</td>
+                        </tr>
+                        <tr>
+                            <td>Bianchi</td>
+                            <td>Anna</td>
+                            <td>03/09/1992</td>
+                            <td style="text-align: center;">F</td>
+                            <td style="text-align: center;">Milano</td>
+                            <td style="text-align: center;">F205</td>
+                            <td>BNCNNA92P43F205K</td>
+                            <td>BNCNNA92P43F205K</td>
+                            <td>✅ Coincide</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="code-block"><code>F2 =SE.ERRORE(CF_COMUNE(E2); "❓ Comune non trovato")</code><br><code>G2 =SE.ERRORE(CODICE.FISCALE(B2; A2; C2; D2; F2); "❓ Dati incompleti")</code><br><code>I2 =SE(H2=""; "—"; SE(SE.ERRORE(CF_CHECK(H2); "")=G2; "✅ Coincide"; "⚠️ Da verificare"))</code></div>
+            <h3>Anagrafica clienti e fornitori</h3>
+            <p>Stessa logica applicata ai dati fiscali e bancari delle aziende, per validare partite IVA e IBAN prima di emettere fatture o disporre bonifici.</p>
+            <div style="--bs-body-bg: var(--light);background: var(--light);">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ragione sociale</th>
+                            <th>Partita IVA</th>
+                            <th>P.IVA valida</th>
+                            <th>Provincia ufficio</th>
+                            <th>IBAN</th>
+                            <th>IBAN valido</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alfa S.r.l.</td>
+                            <td>00743110157</td>
+                            <td style="text-align: center;">VERO</td>
+                            <td>Milano I</td>
+                            <td>IT60X054281110100000012345</td>
+                            <td>FALSO</td>
+                        </tr>
+                        <tr>
+                            <td>Beta S.p.A.</td>
+                            <td>01234567890</td>
+                            <td style="text-align: center;">FALSO</td>
+                            <td style="text-align: center;">—</td>
+                            <td>IT60X0542811101000000123456</td>
+                            <td>VERO</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="code-block"><code>C2 =PARTITA.IVA(B2)</code><br><code>D2 =SE.ERRORE(IVA.PROVINCIA.NOME(STRINGA.ESTRAI(B2; 8; 3)); "—")</code><br><code>F2 =BANCA.IBAN(E2)</code></div>
+        </section>
+        <section id="calendario" class="guide-card">
+            <h2>Calendario fiscale</h2>
+            <p>Le funzioni del calendario fiscale permettono di gestire esercizi non coincidenti con l'anno solare e di raggruppare i dati in modo strutturato.</p>
+            <ul>
+                <li><strong>FISCO.MESEFISCALE</strong>: restituisce il numero progressivo del mese all'interno dell'anno fiscale.</li>
+                <li><strong>FISCO.QUADRIMESTRE</strong>: raggruppa i mesi in blocchi da tre e restituisce un numero da 1 a 4.</li>
+                <li><strong>FISCO.ANNOFISCALE</strong>: indica a quale anno fiscale appartiene una determinata data.</li>
+                <li><strong>FISCO.SETTIMANAFISCALE</strong>: restituisce il numero della settimana a cui appartiene una data.</li>
+            </ul>
+            <div class="code-block" style="background: var(--blockquote-bg);"><code>=FISCO.MESEFISCALE(9;7)</code><br><code>=FISCO.QUADRIMESTRE(5)</code><br><code>=FISCO.SETTIMANAFISCALE(OGGI())</code></div>
+        </section>
+        <section id="banca-e-testo" class="guide-card">
+            <h2>Banca e testo</h2>
+            <h3>BANCA.IBAN</h3>
+            <p>Verifica se un codice IBAN è formalmente valido, controllando lunghezza, caratteri ammessi e cifra di controllo internazionale.</p>
+            <div class="code-block" style="background: var(--blockquote-bg);"><code>=BANCA.IBAN("IT60X0542811101000000123456")</code></div>
+            <h3>STRINGA.BASE64</h3>
+            <p>Converte un testo nella sua codifica Base64.</p>
+            <div class="code-block" style="background: var(--blockquote-bg);"><code>=STRINGA.BASE64("Ciao")</code></div>
+            <h3>BASE64.STRINGA</h3>
+            <p>Operazione inversa: riporta una stringa Base64 al testo originale.</p>
+            <div class="code-block" style="background: var(--blockquote-bg);"><code>=BASE64.STRINGA("Q2lhbw==")</code></div>
+        </section>
+        <section id="aliquote" class="guide-card">
+            <h2>Tabella delle aliquote IVA</h2>
+            <div class="border border-primary table-responsive" style="background: var(--light);">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Paese</th>
+                            <th>Ordinaria</th>
+                            <th>Ridotta</th>
+                            <th>Seconda ridotta</th>
+                            <th>Minima</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align: left;">Italia</td>
+                            <td style="text-align: center;">22%</td>
+                            <td style="text-align: center;">10%</td>
+                            <td style="text-align: center;">5%</td>
+                            <td style="text-align: center;">4%</td>
+                        </tr>
+                        <tr style="text-align: center;">
+                            <td style="text-align: left;">Francia</td>
+                            <td style="text-align: center;">20%</td>
+                            <td style="text-align: center;">10%</td>
+                            <td style="text-align: center;">5,5%</td>
+                            <td style="text-align: center;">2,1%</td>
+                        </tr>
+                        <tr style="text-align: center;">
+                            <td style="text-align: left;">Germania</td>
+                            <td style="text-align: center;">19%</td>
+                            <td style="text-align: center;">7%</td>
+                            <td style="text-align: center;">—</td>
+                            <td style="text-align: center;">—</td>
+                        </tr>
+                        <tr style="text-align: center;">
+                            <td style="text-align: left;">Spagna</td>
+                            <td style="text-align: center;">21%</td>
+                            <td style="text-align: center;">10%</td>
+                            <td style="text-align: center;">4%</td>
+                            <td style="text-align: center;">—</td>
+                        </tr>
+                        <tr style="text-align: center;">
+                            <td style="text-align: left;">Austria</td>
+                            <td style="text-align: center;">20%</td>
+                            <td style="text-align: center;">13%</td>
+                            <td style="text-align: center;">10%</td>
+                            <td style="text-align: center;">—</td>
+                        </tr>
+                        <tr style="text-align: center;">
+                            <td style="text-align: left;">Belgio</td>
+                            <td style="text-align: center;">21%</td>
+                            <td style="text-align: center;">12%</td>
+                            <td style="text-align: center;">6%</td>
+                            <td style="text-align: center;">—</td>
+                        </tr>
+                        <tr style="text-align: center;">
+                            <td style="text-align: left;">Paesi Bassi</td>
+                            <td style="text-align: center;">21%</td>
+                            <td style="text-align: center;">9%</td>
+                            <td style="text-align: center;">—</td>
+                            <td style="text-align: center;">—</td>
+                        </tr>
+                        <tr style="text-align: center;">
+                            <td style="text-align: left;">Danimarca</td>
+                            <td style="text-align: center;">25%</td>
+                            <td style="text-align: center;">—</td>
+                            <td style="text-align: center;">—</td>
+                            <td style="text-align: center;">—</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Finlandia</td>
+                            <td style="text-align: center;">25,5%</td>
+                            <td style="text-align: center;">14%</td>
+                            <td style="text-align: center;">10%</td>
+                            <td style="text-align: center;">—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="faq" class="guide-card">
+            <h2>Domande frequenti</h2>
+            <p><strong>Le funzioni non compaiono quando digito =FISCO...</strong><br>Verifica che l'add-in sia installato nelle Componenti aggiuntive di Excel.</p>
+            <p><strong>Ottengo #NOME?</strong><br>Excel non riconosce la funzione: significa che l'add-in non è caricato in quella sessione.</p>
+            <p><strong>Ottengo #VALORE!</strong><br>Uno degli argomenti non è valido: ad esempio un testo al posto di un numero, un mese fuori intervallo o un'aliquota non prevista.</p>
+            <p><strong>Posso usare le funzioni in una cartella condivisa?</strong><br>Sì, ma ogni utente deve avere l'add-in installato sul proprio PC.</p>
+        </section>
+        <section id="licenza" class="guide-card">
+            <h2>Licenza</h2>
+            <p>Distribuito con licenza MIT. Per i dettagli, consulta il file LICENSE nel repository GitHub.</p>
+            <p><em>Le funzioni forniscono un supporto al calcolo e ai controlli formali: non sostituiscono la verifica di un professionista abilitato.</em></p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-links"><a href="https://github.com/AndreaMDePaolis/Contexl" target="_blank" rel="noopener noreferrer"><svg class="icon" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>&nbsp; GitHub</a><a href="https://github.com/AndreaMDePaolis/Contexl/issues" target="_blank" rel="noopener noreferrer">Apri Ticket</a><a href="https://github.com/AndreaMDePaolis/Contexl/releases" target="_blank" rel="noopener noreferrer">Rilasci</a><a href="https://github.com/AndreaMDePaolis/Contexl/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">Licenza</a></div>
+        <p>© <span id="year">2026</span> Contexl di <a href="https://github.com/AndreaMDePaolis"><strong>Andrea De Paolis</strong></a>. Tutti i diritti sono riservati.</p>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
