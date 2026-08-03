@@ -1,3 +1,254 @@
-<html>
-  <title>Grazie</title>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Grazie per il tuo contributo | Contexl</title>
+
+<style>
+:root{
+    --bg:#0f172a;
+    --card:#1e293b;
+    --primary:#3b82f6;
+    --primary-light:#60a5fa;
+    --text:#f8fafc;
+    --muted:#cbd5e1;
+    --border:#334155;
+    --success:#22c55e;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Segoe UI",sans-serif;
+    color:var(--text);
+    background:
+        radial-gradient(circle at top right,
+        rgba(59,130,246,.25),
+        transparent 35%),
+        radial-gradient(circle at bottom left,
+        rgba(96,165,250,.15),
+        transparent 35%),
+        var(--bg);
+
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:clamp(16px,4vw,40px);
+}
+
+.container{
+    width:100%;
+    max-width:860px;
+}
+
+.card{
+    background:rgba(30,41,59,.96);
+    border:1px solid var(--border);
+    border-radius:24px;
+    padding:clamp(24px,5vw,60px);
+    text-align:center;
+    box-shadow:0 25px 70px rgba(0,0,0,.35);
+    backdrop-filter:blur(12px);
+}
+
+.logo{
+    width:clamp(70px,10vw,100px);
+    height:clamp(70px,10vw,100px);
+
+    margin:0 auto 24px;
+
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:clamp(28px,5vw,46px);
+    font-weight:700;
+
+    color:white;
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        var(--primary-light)
+    );
+}
+
+.badge{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+
+    padding:10px 18px;
+    border-radius:999px;
+
+    background:rgba(34,197,94,.15);
+    border:1px solid rgba(34,197,94,.3);
+
+    color:var(--success);
+    font-size:0.9rem;
+
+    margin-bottom:24px;
+}
+
+h1{
+    font-size:clamp(2rem,5vw,3.2rem);
+    line-height:1.15;
+    margin-bottom:24px;
+}
+
+p{
+    color:var(--muted);
+    font-size:clamp(1rem,2vw,1.15rem);
+    line-height:1.8;
+    margin-bottom:18px;
+}
+
+.highlight{
+    color:var(--primary-light);
+    font-weight:600;
+}
+
+.actions{
+    margin-top:32px;
+}
+
+.button{
+    display:inline-block;
+    text-decoration:none;
+
+    background:var(--primary);
+    color:white;
+
+    padding:16px 30px;
+    border-radius:12px;
+
+    font-weight:600;
+
+    transition:.25s ease;
+}
+
+.button:hover{
+    background:var(--primary-light);
+    transform:translateY(-2px);
+}
+
+.footer{
+    margin-top:36px;
+    padding-top:24px;
+
+    border-top:1px solid var(--border);
+
+    color:#94a3b8;
+    font-size:0.95rem;
+    line-height:1.7;
+}
+
+/* Tablet */
+@media (max-width:768px){
+
+    .card{
+        border-radius:20px;
+    }
+
+    h1{
+        line-height:1.25;
+    }
+}
+
+/* Smartphone */
+@media (max-width:480px){
+
+    body{
+        padding:16px;
+    }
+
+    .card{
+        padding:24px 20px;
+    }
+
+    .badge{
+        width:100%;
+        justify-content:center;
+    }
+
+    .button{
+        width:100%;
+        display:block;
+    }
+
+    p{
+        text-align:left;
+    }
+}
+
+/* Schermi molto grandi */
+@media (min-width:1400px){
+
+    .card{
+        max-width:900px;
+        margin:auto;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <div class="logo">✓</div>
+
+        <div class="badge">
+            Donazione ricevuta con successo
+        </div>
+
+        <h1>Grazie per il tuo contributo!</h1>
+
+        <p>
+            La tua donazione è stata ricevuta con successo e desideriamo
+            ringraziarti sinceramente per il supporto dimostrato verso il
+            progetto <span class="highlight">Contexl</span>.
+        </p>
+
+        <p>
+            Il tuo contributo aiuterà concretamente lo sviluppo continuo,
+            la manutenzione, la correzione dei bug, l'introduzione di nuove
+            funzionalità e il miglioramento della compatibilità dell'add-in.
+        </p>
+
+        <p>
+            Ogni donazione rappresenta un importante incoraggiamento a
+            proseguire l'evoluzione del progetto e a rendere sempre più utile
+            questo strumento per tutta la community.
+        </p>
+
+        <p>
+            Grazie ancora per la fiducia e per aver scelto di sostenere il progetto.
+        </p>
+
+        <div class="actions">
+            <a href="https://contexl.ilgeko.net" class="button">
+                Torna al sito Contexl
+            </a>
+        </div>
+
+        <div class="footer">
+            <strong>Contexl Excel Add-in</strong><br>
+            Sviluppo e manutenzione supportati dalla community.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
 </html>
+
